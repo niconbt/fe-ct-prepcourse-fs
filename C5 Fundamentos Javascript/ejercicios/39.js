@@ -3,7 +3,8 @@
 function numeroRandom() {
   // Genera un número al azar entre 0 y 1 y retórnalo.
   // Tu código:
-  return numeroRandom;
+  var random = Math.random( 0 + 1); 
+  return random;
 }
 
 module.exports = numeroRandom;
