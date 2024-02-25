@@ -2,7 +2,6 @@
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba y retórnalo.
   // Tu código:
-var num = Math.ceil(num);
-return num; 
+return Math.ceil(num);
 }
 module.exports = redondearHaciaArriba;
