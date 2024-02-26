@@ -5,11 +5,4 @@ function devolverString(string) {
   return string;
 }
 
-function nombre(){
-  var texto = "Nicolas";
-  var resultado = devolverString(texto);
-  console.log(resultado);
-}
-nombre();
-
 module.exports = devolverString;
