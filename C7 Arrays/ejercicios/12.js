@@ -4,11 +4,13 @@ function convertirStringAMayusculas(array) {
   // Tu código:
   var minusculas = [];
   for (let i = 0; i < array.length; i++) {
-    if (typeof array[i] === 'string')
-    minusculas = toLowercase(array[i]);
+    minusculas.push(array[i].toUpperCase());
     
   }
-  return minusculas;
+   return minusculas;
 }
 
+//return (minusculas);
+ //var mayusculas = array.map(arr => arr.toUpperCase());
+ //return mayusculas;
 module.exports = convertirStringAMayusculas;
